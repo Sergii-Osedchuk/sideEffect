@@ -14,7 +14,7 @@ const storedPlaces = storedIds.map((id) =>
 
 function App() {
   const selectedPlace = useRef();
-  const [modalIsOpen, setModalIsOpen] = useState(false)
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [availablePlaces, setAvailablePlaces] = useState([]);
   const [pickedPlaces, setPickedPlaces] = useState(storedPlaces);
 
